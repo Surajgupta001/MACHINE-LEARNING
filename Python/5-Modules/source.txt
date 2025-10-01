@@ -1,0 +1,4 @@
+Hello World
+This is a sample text file.
+This file is used to demonstrate module imports in Python.
+You can read this file using Python's built-in functions or modules.
