@@ -1,0 +1,51 @@
+Movie_ID,Title,Genre,Rating,Revenue_Million,Year,Runtime_Min,Director,Country
+1,The Dark Horizon,Thriller,6.9,621,1986,171,Martin Scorsese,UK
+2,The Golden Legacy,Action,6.1,945,1994,149,Ridley Scott,USA
+3,The Crimson Dream,Animation,7.5,1889,2017,120,Christopher Nolan,Canada
+4,The Broken Storm,Thriller,6.5,1428,1986,96,Patty Jenkins,UK
+5,The Furious Storm,Mystery,6.9,227,2009,153,Greta Gerwig,Australia
+6,The Dark Shadow,Thriller,8.9,2583,2003,158,Quentin Tarantino,UK
+7,The Silent Dream,Thriller,9.4,1003,1986,133,Steven Spielberg,Germany
+8,The Furious Empire,Romance,7.2,2795,1997,174,Greta Gerwig,Italy
+9,The Lost Shadow,Sci-Fi,6.6,1604,1997,166,Martin Scorsese,France
+10,The Furious Horizon,Sci-Fi,8.9,1342,2005,119,Greta Gerwig,France
+11,The Golden Storm,Sci-Fi,8.3,1670,2021,143,Denis Villeneuve,India
+12,The Lost Dream,Animation,7.9,2444,2007,159,Patty Jenkins,Japan
+13,The Eternal Empire,Animation,7.7,242,1987,104,Denis Villeneuve,Australia
+14,The Golden River,Horror,7.3,1967,2013,117,Martin Scorsese,USA
+15,The Dark Shadow,Thriller,8.7,1443,1987,122,Patty Jenkins,Canada
+16,The Shattered Horizon,Thriller,9.4,781,2012,98,Steven Spielberg,South Korea
+17,The Golden Dream,Comedy,7.3,711,2014,152,Christopher Nolan,Italy
+18,The Furious Code,Action,6.4,1536,1999,115,Christopher Nolan,France
+19,The Golden River,Drama,8.6,333,2014,101,Denis Villeneuve,Germany
+20,The Crimson Empire,Thriller,7.8,2534,2007,112,Martin Scorsese,France
+21,The Hidden Legacy,Romance,7.5,2169,2008,100,Quentin Tarantino,France
+22,The Dark Storm,Action,8.1,992,2017,113,Christopher Nolan,UK
+23,The Silent Dream,Drama,9.2,1403,1984,150,Quentin Tarantino,India
+24,The Shattered Dream,Animation,6.5,2388,2016,145,Quentin Tarantino,Germany
+25,The Broken Dream,Drama,6.3,1815,2002,139,Patty Jenkins,Germany
+26,The Silent River,Action,7.4,1439,1986,116,Quentin Tarantino,France
+27,The Crimson Code,Comedy,7.5,1190,2009,116,Greta Gerwig,Germany
+28,The Crimson River,Action,8.3,2264,1980,96,Quentin Tarantino,Canada
+29,The Broken Code,Adventure,6.7,1692,1983,106,Patty Jenkins,USA
+30,The Broken Sky,Adventure,7.0,2326,2022,176,Jordan Peele,Canada
+31,The Eternal Sky,Sci-Fi,9.4,2422,2014,92,James Cameron,USA
+32,The Silent Echo,Adventure,7.8,2225,1990,92,Martin Scorsese,UK
+33,The Lost River,Mystery,6.2,1013,2005,100,Ridley Scott,France
+34,The Golden Echo,Action,8.2,1767,2022,159,Ridley Scott,South Korea
+35,The Furious Sky,Sci-Fi,8.3,1336,1995,118,Patty Jenkins,Canada
+36,The Hidden Code,Romance,9.3,347,1980,143,Ridley Scott,Italy
+37,The Dark River,Animation,6.7,1136,1988,129,Greta Gerwig,France
+38,The Furious Sky,Comedy,7.5,2275,2025,123,Ridley Scott,South Korea
+39,The Silent Shadow,Thriller,9.3,474,1988,118,Greta Gerwig,UK
+40,The Crimson Empire,Thriller,7.0,912,2025,128,Quentin Tarantino,India
+41,The Crimson Code,Thriller,9.2,258,1985,166,Patty Jenkins,India
+42,The Silent Horizon,Romance,8.7,2659,1996,105,Jordan Peele,South Korea
+43,The Broken Shadow,Action,6.4,660,2014,89,James Cameron,Italy
+44,The Crimson Empire,Horror,6.4,1312,2003,90,James Cameron,France
+45,The Eternal River,Romance,8.7,1714,2019,180,Denis Villeneuve,France
+46,The Lost Empire,Horror,6.1,1410,2006,170,Quentin Tarantino,India
+47,The Lost River,Horror,9.1,1977,1994,110,Jordan Peele,Japan
+48,The Hidden Dream,Sci-Fi,6.1,841,2005,127,Steven Spielberg,UK
+49,The Hidden Storm,Animation,7.4,2246,2001,88,Greta Gerwig,India
+50,The Lost Echo,Thriller,6.1,2493,2007,129,James Cameron,Australia
