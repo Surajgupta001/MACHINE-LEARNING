@@ -3,7 +3,7 @@ Movie_ID,Title,Genre,Rating,Revenue_Million,Year,Runtime_Min,Director,Country
 2,The Golden Legacy,Action,6.1,945,1994,149,Ridley Scott,USA
 3,The Crimson Dream,Animation,7.5,1889,2017,120,Christopher Nolan,Canada
 4,The Broken Storm,Thriller,6.5,1428,1986,96,Patty Jenkins,UK
-5,The Furious Storm,Mystery,6.9,227,2009,153,Greta Gerwig,Australia
+5,The Furious Storm,Mystery,9.6,227,2009,153,Greta Gerwig,Australia
 6,The Dark Shadow,Thriller,8.9,2583,2003,158,Quentin Tarantino,UK
 7,The Silent Dream,Thriller,9.4,1003,1986,133,Steven Spielberg,Germany
 8,The Furious Empire,Romance,7.2,2795,1997,174,Greta Gerwig,Italy
@@ -18,7 +18,7 @@ Movie_ID,Title,Genre,Rating,Revenue_Million,Year,Runtime_Min,Director,Country
 17,The Golden Dream,Comedy,7.3,711,2014,152,Christopher Nolan,Italy
 18,The Furious Code,Action,6.4,1536,1999,115,Christopher Nolan,France
 19,The Golden River,Drama,8.6,333,2014,101,Denis Villeneuve,Germany
-20,The Crimson Empire,Thriller,7.8,2534,2007,112,Martin Scorsese,France
+20,The Crimson Empire,Thriller,8.9,2534,2007,112,Martin Scorsese,France
 21,The Hidden Legacy,Romance,7.5,2169,2008,100,Quentin Tarantino,France
 22,The Dark Storm,Action,8.1,992,2017,113,Christopher Nolan,UK
 23,The Silent Dream,Drama,9.2,1403,1984,150,Quentin Tarantino,India
