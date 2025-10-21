@@ -1,0 +1,5 @@
+2025-10-21 19:46:46 - ArithmeticLogger - DEBUG - Adding 10 + 5
+2025-10-21 19:46:46 - ArithmeticLogger - DEBUG - Subtracting 5 - 10
+2025-10-21 19:46:46 - ArithmeticLogger - DEBUG - Multiplying 10 * 5
+2025-10-21 19:46:46 - ArithmeticLogger - DEBUG - Dividing 10 / 0
+2025-10-21 19:46:46 - ArithmeticLogger - ERROR - Attempted to divide by zero
