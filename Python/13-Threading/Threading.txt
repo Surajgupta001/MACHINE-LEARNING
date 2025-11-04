@@ -1,0 +1,29 @@
+# Multithreading vs. Multiprocessing
+
+## 1. Program
+A program is a passive entity, a file containing a sequence of instructions written in a programming language. It's the code itself, stored on a disk.
+*   **Example:** The `chrome.exe` file on your computer is a program. The Python interpreter (`python.exe`) is a program.
+
+## 2. Process
+A process is an active instance of a program that is being executed. When you run a program, the operating system creates a process. Each process has its own memory space, system resources, and at least one thread of execution.
+*   **Example:** When you double-click on the Google Chrome icon, you start a Chrome process. If you open two separate terminal windows and run a Python script in each, you have created two separate processes.
+
+## 3. Thread
+A thread is the smallest unit of execution within a process. A process can have multiple threads, all executing concurrently and sharing the process's memory space and resources.
+*   **Example:** In a web browser (a single process), one thread might handle user input (like typing in the address bar), another thread could be rendering the web page, and a third thread could be downloading a file.
+
+## Key Differences: Multithreading vs. Multiprocessing
+
+| Feature            | Multithreading                                       | Multiprocessing                                     |
+| ------------------ | ---------------------------------------------------- | --------------------------------------------------- |
+| **Memory**         | Threads share the same memory space of the process.  | Processes have separate, independent memory spaces. |
+| **Communication**  | Fast and easy between threads (shared variables).    | Slower and more complex (requires IPC mechanisms).  |
+| **Creation**       | Faster to create than a new process.                 | Slower to create as it requires more OS overhead.   |
+| **Fault Isolation**| An error in one thread can crash the entire process. | An error in one process does not affect others.     |
+| **Best For**       | I/O-bound tasks (e.g., web requests, file operations).| CPU-bound tasks (e.g., complex calculations).       |
+
+## When to Use Which?
+
+*   **Use Multithreading** when your tasks involve a lot of waiting for external resources (like network I/O or disk I/O). The ability to switch between threads while one is waiting can lead to significant performance gains.
+
+*   **Use Multiprocessing** when your tasks are computationally intensive and can be broken down into independent, parallelizable chunks. This is ideal for leveraging multiple CPU cores to perform heavy computations.
