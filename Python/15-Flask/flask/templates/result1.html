@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result Page</title>
+</head>
+<body>
+    <h1>This is the result page of Flask.</h1>
+    <p>Form submitted successfully!</p>
+    <table>
+        {# Support either a passed-in `result` dict or form data from `request.form` #}
+        {% if result is defined and result %}
+            {% for key, value in result.items() %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+        {% else %}
+            {% for key, value in request.form.items() %}
+            <tr>
+                <td>{{ key }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+        {% endif %}
+    </table>
+</body>
+</html>
