@@ -12,3 +12,4 @@ flask
 streamlit
 scikit-learn
 imbalanced-learn
+statsmodels
