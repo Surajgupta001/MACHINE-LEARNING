@@ -1,0 +1,23 @@
+name: ai_ml_env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - ipykernel
+  - numpy
+  - pandas
+  - lxml
+  - html5lib
+  - beautifulsoup4
+  - openpyxl
+  - matplotlib
+  - seaborn
+  - bs4
+  - flask
+  - streamlit
+  - scikit-learn
+  - imbalanced-learn
+  - statsmodels
