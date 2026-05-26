@@ -2,13 +2,15 @@ import streamlit as st
 import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.utils import Bunch
+from typing import cast
 
 
 @st.cache_data
 def load_data():
-    iris = load_iris()
+    iris = cast(Bunch, load_iris())
     df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
-    df['species'] = iris.target
+    df["species"] = iris.target
     return df, iris.target_names
 
 
@@ -16,7 +18,7 @@ df, target_names = load_data()
 
 # Train model
 model = RandomForestClassifier()
-model.fit(df.iloc[:, :-1], df['species'])
+model.fit(df.iloc[:, :-1], df["species"])
 
 # Streamlit App
 st.title("Iris Species Classification")
@@ -24,30 +26,30 @@ st.header("Input Features")
 
 sepal_length = st.slider(
     "Sepal Length",
-    float(df['sepal length (cm)'].min()),
-    float(df['sepal length (cm)'].max()),
-    float(df['sepal length (cm)'].mean()),
+    float(df["sepal length (cm)"].min()),
+    float(df["sepal length (cm)"].max()),
+    float(df["sepal length (cm)"].mean()),
 )
 
 sepal_width = st.slider(
     "Sepal Width",
-    float(df['sepal width (cm)'].min()),
-    float(df['sepal width (cm)'].max()),
-    float(df['sepal width (cm)'].mean()),
+    float(df["sepal width (cm)"].min()),
+    float(df["sepal width (cm)"].max()),
+    float(df["sepal width (cm)"].mean()),
 )
 
 petal_length = st.slider(
     "Petal Length",
-    float(df['petal length (cm)'].min()),
-    float(df['petal length (cm)'].max()),
-    float(df['petal length (cm)'].mean()),
+    float(df["petal length (cm)"].min()),
+    float(df["petal length (cm)"].max()),
+    float(df["petal length (cm)"].mean()),
 )
 
 petal_width = st.slider(
     "Petal Width",
-    float(df['petal width (cm)'].min()),
-    float(df['petal width (cm)'].max()),
-    float(df['petal width (cm)'].mean()),
+    float(df["petal width (cm)"].min()),
+    float(df["petal width (cm)"].max()),
+    float(df["petal width (cm)"].mean()),
 )
 
 # Prepare input data for prediction
@@ -61,5 +63,5 @@ prediction = model.predict(input_df)
 predicted_species = target_names[prediction[0]]
 
 # Display prediction
-st.subheader('Prediction')
-st.write(f'The predicted species is: {predicted_species}')
+st.subheader("Prediction")
+st.write(f"The predicted species is: {predicted_species}")
