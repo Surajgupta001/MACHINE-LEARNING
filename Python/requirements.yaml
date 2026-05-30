@@ -6,22 +6,46 @@ channels:
 
 dependencies:
   - python=3.10
+
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - jupyter
   - ipykernel
+  - ipywidgets
+
+  # Core Data Science
   - numpy
   - pandas
-  - lxml
-  - html5lib
-  - beautifulsoup4
-  - openpyxl
   - matplotlib
   - seaborn
-  - bs4
-  - flask
-  - streamlit
   - scikit-learn
   - imbalanced-learn
   - statsmodels
+
+  # NLP
+  - nltk
+
+  # Web Scraping
+  - beautifulsoup4
+  - lxml
+  - html5lib
+
+  # Excel/File Handling
+  - openpyxl
+
+  # Web/App Frameworks
+  - flask
+  - streamlit
+
+  # Visualization
   - plotly
   - dash
+
+  # Misc
   - nbformat>=4.2.0
-  - nltk
+  - pip
+
+  - pip:
+      - kaggle
+      - python-dotenv
