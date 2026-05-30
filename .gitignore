@@ -1,0 +1,53 @@
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+develop-eggs/
+pip-wheel-metadata/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments and env files
+venv/
+venv*/
+ENV/
+env/
+.envrc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset folders
+.36-NLP/datasets/
+data/
+datasets/
+
+# Editor and IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+logs/
+*.log
+*.sqlite3
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+.cache/
