@@ -51,3 +51,6 @@ logs/
 .mypy_cache/
 .pytest_cache/
 .cache/
+
+# VSCode settings
+.vscode/
