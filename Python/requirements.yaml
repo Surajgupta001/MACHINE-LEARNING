@@ -49,3 +49,4 @@ dependencies:
   - pip:
       - kaggle
       - python-dotenv
+      - gensim
